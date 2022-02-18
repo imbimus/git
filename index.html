@@ -8,47 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>My Portofolio</h1>
-    <strong>Biografi</strong>
-    <p>Saya Bintang Muslim, umur 28 tahun dan lahir pada tanggal 08 Februari 1994. Saya anak ketiga dari keempat bersaudara. Saya lulusan D3 dengan jurusan Komputerisasi Akuntansi di BSI BSD</p>
-    <br>
-    <p>Status saya sudah menikah, dan memiliku satu orang putra. </p>
-    <strong>Skill</strong>
-    <ul>
-        <li>Bahasa Inggris pasif</li>
-        <li>Photoshop Basic</li>
-    <br>
-    <strong>Other Skill</strong>
-    <ol>
-        <li>Cooking</li>
-        <li>Ms.Office</li>
-    </ol>
-    </ul>
-    <table border="1px" cellspacing="0px" cellpadding="3">
-        <tr>
-            <th>No.</th>
-            <th>Nama</th>
-            <th>Address</th>
-        </tr>
-        <tr>
-            <th>1.</th>
-            <th>Bintang Muslim</th>
-            <th>RawaBuntu</th>
-        </tr>
-        <tr>
-            <th>2.</th>
-            <th>Khania Dwi Sentani</th>
-            <th>Rajeg</th>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <form action="/action_page.php">
-        <label for="fname">Firt Name</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lname"> 
-        <button type="submit">Submit</button>
-    </form>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">My Portofolio</div>
+            <div class="menu"></div>
+        <ul>
+            <li><a href="#biografi">Biografi</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#otherskill">Other Skill</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <section id="Biografi">
+            <img src="https://cydomedia.com/wp-content/uploads/2021/06/WHAT-IS-BRAND-MANAGEMENT-HOW-IT-CAN-AFFECT-YOUR-BUSINESS.jpg"/>
+            <div class="baris">
+                <p>Saya Bintang Muslim, umur 28 tahun dan lahir pada tanggal 08 Februari 1994. Saya anak ketiga dari keempat bersaudara. Saya lulusan D3 dengan jurusan Komputerisasi Akuntansi di BSI BSD. Status saya sudah menikah, dan memiliku satu orang putra.</p>
+                <a href="tbl-pink">Details</a>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper">
+        <section id="Skill">
+            <img src="https://ksppsnus.com/wp-content/uploads/2020/04/soft-skills-5e865c36d541df0b46681802.jpg"/>
+            <div class="kolom">
+                <ul>
+                    <li>Ms.Office</li>
+                    <li>English</li>
+                </ul>
+                <a href="tbl-white">Details</a>
+            </div>
+        </section>
+    </div>   
 </body>
 </html>
