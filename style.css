@@ -27,12 +27,30 @@ body {
     float: right;
 }
 nav ul {
-     list-style: none;
+     list-style-type: none;
      margin: 0px;
      padding: 0px;
      overflow: hidden;
  }
 
  nav ul li {
+     float: left;
+ }
+
+ nav ul li a {
      display: inline;
+     color: black;
+     font-weight: bold;
+     padding: 0px 15px 0px 15px;
+    text-decoration: none;
+ }
+
+ nav ul li a:hover {
+     text-decoration: underline;
+ }
+
+ section {
+     margin: auto;
+     display: flex;
+     margin-bottom: 50px;
  }
