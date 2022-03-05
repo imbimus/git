@@ -42,11 +42,12 @@ nav ul {
      color: black;
      font-weight: bold;
      padding: 0px 15px 0px 15px;
-    text-decoration: none;
+    text-decoration: brown;
  }
 
  nav ul li a:hover {
      text-decoration: underline;
+     background-color: darkgoldenrod;
  }
 
  section {
